@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Food Website</title>
+	<!--font awesome vdn link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	
+	<!-- css file link -->
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/script.js" defer></script>
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+<!-- header section starts -->
+<header>
+	<a href ="#" class="logo"><i class="fas fa-utensils"></i>foodie</a>
+
+	<div id="menu-bar" class="fas fa-bars"></div>
+	<nav class="navbar">
+		<a href="#home">home</a>
+		<a href="#speciality">speciality</a>
+		<a href="#popular">popular</a>
+		<a href="#gallery">gallery</a>
+		<a href="#review">reviews</a>
+		<a href="#order">order</a>
+	</nav>
+</header>
+
+<section class="home"  id="home">
+<div class="content">
+	<h3>food made with love</h3>
+	<p>Welcome to Foodies, your ultimate destination for culinary inspiration! Explore a world of flavours, recipies ,and cooking tips that will tanalize your taste buds.</p>
+	<button class="btn" id="orderNowButton">Order now</button>
+</div>
+
+<div class="image">
+	<img src="IMAGES/home_img.png" alt="">
+
+
+</div>
+</section>
+
+
+ <!--home section ends-->
+
+	<!-- custom js file link -->
+
+	<!--speciality section starts-->
+
+
+	<section class="speciality" id="speciality">
+		<h1 class="heading">Our <span>speciality</span></h1>
+		<div class="box-container">
+
+			<div class="box">
+				<img class="image" src="IMAGES/s-img-1.jpg" alt="" height="200px" width="200px">
+
+				<div class="content">
+					<img src="IMAGES/s-1.png" alt="" height="100px" width="100px">
+
+					<h3>Burger</h3>
+					<p>At Foodies,we're passionate about bringing you the best burger bliss. Sink your teeth into our collection of succulent burger recipes that are celebration of flavors and textures.From classic patties with melted cheese to innovative veg and vegan options, we've got a burger for every craving.</p>
+				</div>
+				</div>
+			<div class="box">
+				<img class="image" src="IMAGES/s-img-2.jpg" alt="" height="200px" width="200px">
+				<div class="content">
+					<img src="IMAGES/s-2.png" alt="" height="100px" width="100px">
+					<h3>Pizza</h3>
+					<p>Experience Pizza perfection at Foodies! Prepare to embark ona journey to pizza paradise with our delectable assortment of pizza-related content.Delight in the timeless charm of traditional margherita, pepperoni, and supreme pizzas that ooze with melted cheese and mouthwatering toppings.</p>
+				</div>
+			</div>
+
+			<div class="box">
+				<img class="image" src="IMAGES/s-img-3.jpg" alt="" height="200px" width="200px">
+				<div class="content">
+					<img src="IMAGES/s-3.png" alt=""height="100px" width="100px">
+					<h3>Ice cream</h3>
+					<p>"Indulge in Heavenly Scoops of Ice Cream Bliss! From velvety classics to innovative twists, we serve every flavour. Relish the nostalgia of timeless flavors like rich chocolate, creamy vanilla, and luscious strawberry.These comforting scoops are the perfect companions for lazy afternoon and celebrations alike.</p>
+				</div>
+			</div>
+
+			<div class="box">
+				<img class="image" src="IMAGES/s-img-4.jpg" alt="" height="200px" width="200px">
+				<div class="content">
+					<img src="IMAGES/s-4.png" alt="" height="100px" width="100px">
+					<h3>Drinks</h3>
+					<p>"Raise Your Glass to Unforgettable Drinks! Dive into mocktail wonders that prove you don't need spirits to enjoy a flavorful drink.Discover refreshing combination of fruits, herbs, sparkling waters that are perfect for any occasion.</p>
+				</div>
+			</div>
+
+			<div class="box">
+				<img class="image" src="IMAGES/s-img-5.jpg" alt="" height="200px" width="200px">
+				<div class="content">
+					<img src="IMAGES/s-5.png" alt="" height="100px" width="100px">
+					<h3>Sweets</h3>
+					<p>"Indulge in Sweet Temptations at Foodies! Dive into the realm of velvety chocolates, from rich truffles to silky ganache. Uncover the secrets of pairing chocolates with various flavours for an unforgettable experience.</p>
+				</div>
+			</div>
+
+			<div class="box">
+				<img class="image" src="IMAGES/s-img-6.jpg" alt="" height="200px" width="200px">
+				<div class="content">
+					<img src="IMAGES/s-6.png" alt="" height="100px" width="100px">
+					<h3>Healthy Breakfast</h3>
+					<p>"Start Your Day Right with Nutrient-Packed Breakfasts! Dive into a bowl of vibrant goodness with our assortment of nutrient-rich smoothie bowls.Packed with fresh fruits,leafy greens,these bowls are a good way to start your morning.</p>
+				</div>
+			</div>
+
+			
+		</div>
+	</section>
+	<!--speciality section ends-->
+
+	<!--popular section starts -->
+
+	<section class="popular" id="popular">
+		<h1 class="heading">Most <span>popular</span>foods</h1>
+		<div class="box-container">
+
+			<div class="box product-container" data-price="80.00" data-title="Tasty Burger">
+				
+				 <p>Price: $<span id="item-price">80</span></p>
+				<img src="IMAGES/p-1.jpg" alt="" height="200px" width="250px">
+				
+				<h3>Tasty Burger</h3>
+
+
+
+				<div class="stars">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="far fa-star"></i>
+				</div>
+				
+				<!-- Add to Cart Button -->
+				<button class="btn addToCartButton">Add to Cart <i class="fas fa-shopping-cart cart-icon"></i></button>
+    <!-- Cart Total -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha384-qy86sI8O73oE0Ml1x1ZGDrUfKw1P5BCx2q7WmNCn0nxx1YOwX3RHB6mIiZELcbde" crossorigin="anonymous"></script>
+  
+
+			</div>
+
+			<div class="box product-container" id="product-1" data-price="10.00" data-title="Delicious Cakes">
+				<p>Price: $<span id="item-price">10.00</span></p>
+				<img src="IMAGES/p-2.jpg" alt="" height="200px" width="250px">
+				
+				<h3>Delicious Cakes</h3>
+				<div class="stars">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="far fa-star"></i>
+				</div>
+				<button class="btn addToCartButton">Add to Cart <i class="fas fa-shopping-cart cart-icon"></i></button>
+			</div>
+
+			<div class="box product-container" data-price="10.00" data-title="Spicy Hot Dog">
+				<p>Price: $<span id="item-price">10.00</span></p>
+				<img src="IMAGES/p-3.jpg" alt="" height="200px" width="250px">
+				
+				<h3>Spicy Hot dog</h3>
+				<div class="stars">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="far fa-star"></i>
+				</div>
+				<button class="btn addToCartButton">Add to Cart <i class="fas fa-shopping-cart cart-icon"></i></button>
+    <!-- Cart Total -->
+
+    
+
+     
+
+			</div>
+
+			<div class="box product-container" data-price="10.00" data-title="Tasty cupcakes">
+				<p>Price: $<span id="item-price">10.00</span></p>
+				<img src="IMAGES/p-4.jpg" alt="" height="200px" width="250px">
+				
+				<h3>Tasty cupcakes</h3>
+				<div class="stars">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="far fa-star"></i>
+				</div>
+				<button class="btn addToCartButton">Add to Cart <i class="fas fa-shopping-cart cart-icon"></i></button>
+    <!-- Cart Total -->
+
+   
+
+			</div>
+
+			<div class="box product-container" data-price="11.00" data-title="Chilling drinks">
+				<p>Price: $<span id="item-price">11.00</span></p>
+				<img src="IMAGES/p-5.jpg" alt="" height="200px" width="250px">
+				
+				<h3>Chilling Drinks</h3>
+				<div class="stars">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="far fa-star"></i>
+				</div>
+				<button class="btn addToCartButton">Add to Cart <i class="fas fa-shopping-cart cart-icon"></i></button>
+    <!-- Cart Total -->
+  
+
+			</div>
+
+			<div class="box product-container" data-price="10.00" data-title="Creamy Pasta">
+				<p>Price: $<span id="item-price">10.00</span></p>
+				<img src="IMAGES/p-6.jpg" alt="" height="200px" width="250px">
+				
+				<h3>Creamy Pasta</h3>
+				<div class="stars">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="far fa-star"></i>
+				</div>	<button class="btn addToCartButton">Add to Cart <i class="fas fa-shopping-cart cart-icon"></i></button>
+    <!-- Cart Total -->    
+
+
+
+
+
+    
+    
+			</div>
+		</div>
+	</section>
+
+	<!--popular section ends -->
+
+	<!--steps section starts-->
+
+	<section class="steps">
+		<div class="box">
+			<img src="IMAGES/step-4.png" alt="" height="200px" width="200px">
+			<h3>Choose your Meal</h3>
+
+		</div>
+
+		<div class="box">
+			<img src="IMAGES/step-2.png" alt="" height="200px" width="200px">
+			<h3>Free and Fast delivery</h3>
+		</div>
+
+		<div class="box">
+			<img src="IMAGES/step-3.png" alt="" height="200px" width="200px">
+			<h3>Easy payments methods</h3>
+		</div>
+
+		<div class="box">
+			<img src="IMAGES/step-1.png" alt="" height="200px" width="200px">
+			<h3>Enjoy your meal</h3>
+		</div>
+		
+
+	</section>
+	<!--steps section ends-->
+
+	<!--gallery starts-->
+	<section class="gallery" id="gallery">
+		<h1 class="heading">Our food<span>gallery</span></h1>
+		<div class="box-container">
+			<div class="box">
+				<img src="IMAGES/g-1.jpg" alt="" height="200px" width="300px">
+
+				<div class="content">
+					<h3>Burger</h3>
+					<p>Elevate your burger experience with our gormet experience with our gourmet concoctions. Think blue cheese and caramelized onions, or avocado and sriracha mayo.</p>
+
+					<button class="btn" id="orderButton">Order Now</button>
+				</div>
+			</div>
+
+			<div class="box">
+				<img src="IMAGES/g-2.jpg" alt="" height="200px" width="300px">
+				<div class="content">
+					<h3>Sandwich</h3>
+					<p>Embark on a journey around the world with our international sandwich selections. Experience the bold flavours of banh mi, panini, and bocadillo that offer new tastes</p>
+					<button class="btn" id="orderButton">Order Now</button>
+				</div>
+			</div>
+
+			<div class="box">
+				<img src="IMAGES/g-3.jpg" alt="" height="200px" width="300px">
+				<div class="content">
+					<h3>Asian Roll</h3>
+					<p>Elevate your asian roll experience with our range of delectable dipping sauces. From sweet chilli to tangy peanut sauce, these accompaniments enhance the flavours. </p>
+					<button class="btn" id="orderButton">Order Now</button>
+				</div>
+			</div>
+
+			<div class="box">
+				<img src="IMAGES/g-4.jpg" alt="" height="200px" width="300px">
+				<div class="content">
+					<h3>Cup Cakes</h3>
+					<p>Experience the magic of creatively designed cupcakes, featuring fondant decorations, edible flowers.</p>
+					<button class="btn" id="orderButton">Order Now</button>
+				</div>
+			</div>
+			<div class="box">
+				<img src="IMAGES/g-5.jpg" alt="" height="200px" width="300px">
+				<div class="content">
+					<h3>Donuts</h3>
+					<p>"Dive into Donut Delights :A jouney of sweet satisfaction!</p>
+					<button class="btn" id="orderButton">Order Now</button>
+				</div>
+			</div>
+			<div class="box">
+				<img src="IMAGES/g-6.jpg" alt="" height="200px" width="300px">
+				<div class="content">
+					<h3>Non-veg</h3>
+					<p>Experience the hearwarming flavours like roast chicken, chicken pot pie etc.</p>
+					<button class="btn" id="orderButton">Order Now</button>
+				</div>
+			</div>
+			<div class="box">
+				<img src="IMAGES/g-7.jpg" alt="" height="200px" width="300px">
+				<div class="content">
+					<h3>Omelet</h3>
+					<p>"Elevate Your Breakfast with Irresistable Omelets!</p>
+					<button class="btn" id="orderButton">Order Now</button>
+				</div>
+			</div>
+			<div class="box">
+				<img src="IMAGES/g-8.jpg" alt="" height="200px" width="300px">
+				<div class="content">
+					<h3>Chocolates</h3>
+					<p>Dive in Chocolaty Expeience with Delicious Flavoured Chocolates</p>
+					<button class="btn" id="orderButton">Order Now</button>
+				</div>
+			</div>
+			<div class="box">
+				<img src="IMAGES/g-9.jpg" alt=""height="200px" width="300px">
+				<div class="content">
+					<h3>Noodles</h3>
+					<p>"Delve into the World of Chinese Noodles!</p>
+					<button class="btn" id="orderButton">Order Now</button>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+<!--gallery ends-->
+
+<!--review section starts-->
+<section class="review" id="review">
+	<h1 class="heading">our customers<span>Reviews</span></h1>
+
+	<div class="box-container">
+		<div class="box">
+			<img src="IMAGES/pic1 (1).png" alt="">
+			<h3>Bella williams</h3>
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				
+				<i class="fas fa-star"></i>
+				
+				<i class="far fa-star"></i>
+				
+			</div>
+			<p>Unbelievable experience at foodies whether its about the taste or the fast delivery service it's always on top.</p>
+
+		</div>
+		<div class="box-container">
+			<div class="box">
+				<img src="IMAGES/pic2.png" alt="" height="180px" width="190px">
+				<h3>john deo</h3>
+				<div class="stars">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					
+					<i class="fas fa-star"></i>
+					
+					<i class="far fa-star"></i>
+					
+				</div>
+				<p>I love to order from here . Great food and taste!</p>
+	
+			</div>
+			<div class="box-container">
+				<div class="box">
+					<img src="IMAGES/pic3.png" alt="">
+					<h3>Noah frost</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						
+						<i class="fas fa-star"></i>
+						
+						<i class="far fa-star"></i>
+						
+					</div>
+					<p>Extremely wonderfull food , hygienic and fresh !</p>
+		
+				</div>
+	</div>
+</section>
+<!--review section ends-->
+
+<!--order section starts-->
+
+<section class="order" id="cartSection">
+	<h1 class="text-5xl font-bold underline text-center text-red-400">
+		View Cart
+	  </h1>
+	<div class="">
+		<div class="" id="cartList">
+			
+		</div>	
+	</div>
+
+</section>
+
+<section class="order" id="orderFormSection">
+	<h1 class="heading"> <span>Contact</span> US </h1>
+
+	<div class="row">
+		<div class="image">
+		<img src="IMAGES/order_img.png" alt="" height="300px" width="300px">
+		</div>
+		
+
+
+    
+	
+		<form action="">
+			<div class="inputbox">
+				<input type="text" placeholder="name">
+				<input type="email" placeholder="email" reqired="required">
+			</div>
+
+			<div class="inputbox">
+				<input type="number" placeholder="number" required="required">
+				<input type="text" placeholder="food name" required="required">
+			</div>
+
+			<textarea placeholder="address"name="" id="" cols="30" rows="10"></textarea>
+			<input type="submit" value="Send Message" class="btn">
+
+
+		</form>
+	</div>
+</section>
+<!--order section ends-->
+
+<!--footer section-->
+<section class="footer">
+	<div class="share">
+		<a href="#" class="btn">facebook</a>
+		<a href="#" class="btn">twitter</a>
+		<a href="#" class="btn">instagram</a>
+		<a href="#" class="btn">pinterest</a>
+		<a href="#" class="btn">linkedin</a>
+	</div>
+
+	<h1 class="credit">created by<span> ms. sanjana verma </span> | all rights reserved! </h1>
+</section>
+
+<!--scroll top button-->
+<a href="home" class="fas fa-angle-up" id="scroll-top"></a>
+<!--loader-->
+<div class="loader-container">
+
+	<img src="IMAGES/loader.gif" alt="" height="100px" width="100px">
+</div>
+</body>
+</html>
+
+
+
